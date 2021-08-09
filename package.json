@@ -1,0 +1,44 @@
+{
+  "name": "lint-config",
+  "version": "0.1.0",
+  "description": "通用的前端项目风格校验配置",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint -c ./src/ts/index.js ./test/demo.js",
+    "lint:ts": "eslint -c ./src/js/index.js ./test/demo.ts",
+    "lint:vue": "eslint -c ./src/vue/index.js ./test/demo.vue",
+    "lint:vue3": "eslint -c ./src/vue3/index.js ./test/demo-v3.vue",
+    "lint:react": "eslint -c ./src/react/index.js ./test/react.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mario34/lint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "stylelint",
+    "commimtlint"
+  ],
+  "author": "Mario34",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mario34/lint-config/issues"
+  },
+  "homepage": "https://github.com/Mario34/lint-config#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.15.1",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  }
+}
