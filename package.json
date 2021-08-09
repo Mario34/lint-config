@@ -1,5 +1,5 @@
 {
-  "name": "lint-config",
+  "name": "@mario34/lint-config",
   "version": "0.1.0",
   "description": "通用的前端项目风格校验配置",
   "main": "index.js",
@@ -17,7 +17,7 @@
   "keywords": [
     "eslint",
     "stylelint",
-    "commimtlint"
+    "commitlint"
   ],
   "author": "Mario34",
   "license": "MIT",
