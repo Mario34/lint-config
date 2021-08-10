@@ -1,6 +1,6 @@
 {
   "name": "@mario34/lint-config",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "通用的前端项目风格校验配置",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/Mario34/lint-config/issues"
   },
   "homepage": "https://github.com/Mario34/lint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
     "@vue/eslint-config-standard": "^6.1.0",
