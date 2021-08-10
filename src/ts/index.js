@@ -46,23 +46,4 @@ module.exports = {
       },
     ],
   },
-  overrides: [
-    {
-      files: [
-        '**/__tests__/*.{j,t}s?(x)',
-        '**/tests/unit/**/*.spec.{j,t}s?(x)',
-      ],
-      env: {
-        mocha: true,
-        jest: true,
-      },
-    },
-    {
-      files: ['*.vue'],
-      rules: require('@typescript-eslint/eslint-plugin').configs['eslint-recommended'].overrides[0].rules,
-    },
-  ],
-  settings: {
-    'import/extensions': ['.js', '.ts', '.tsx', '.vue'],
-  },
 }

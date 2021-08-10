@@ -1,11 +1,5 @@
 **为了解决项目代码风格校验繁琐、且难以及时同步的问题**
 
-- [x] eslint: `js`、`ts`、`vue`、`vue3`、`react`
-
-- [ ] commitlint
-
-- [ ] stylelint
-
 ## 快速使用
 
 ### 安装依赖
