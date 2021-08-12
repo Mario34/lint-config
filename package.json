@@ -1,6 +1,6 @@
 {
   "name": "@mario34/lint-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "通用的前端项目风格校验配置",
   "main": "index.js",
   "scripts": {

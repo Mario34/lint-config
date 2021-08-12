@@ -5,7 +5,7 @@ module.exports = {
     browser: true,
   },
   parser: '@typescript-eslint/parser',
-  extends: ['plugin:@typescript-eslint/recommended'],
+  extends: ['../js', 'plugin:@typescript-eslint/recommended'],
   plugins: ['@typescript-eslint'],
   parserOptions: {
     ecmaVersion: 2020,
