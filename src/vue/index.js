@@ -3,7 +3,7 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['../js/index.js', 'plugin:vue/recommended', '@vue/standard'],
+  extends: ['plugin:vue/recommended', '@vue/standard', '../js/index.js' ],
   parserOptions: {
     parser: 'babel-eslint',
   },
